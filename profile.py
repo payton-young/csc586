@@ -21,7 +21,7 @@ for i in range(3):
   if i == 0:
     node = request.XenVM("ldapserver")
   elif i == 1:
-    node = request.XenVM("ldapclient")
+    node = request.XenVM("nfsserver")
   else:
     node = request.XenVM("nfsclient")
  
