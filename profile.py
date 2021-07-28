@@ -21,7 +21,7 @@ link = request.LAN("lan")
 for i in range(2):
   if i == 0:
     node = request.XenVM("webserver")
-  else i == 1:
+  else:
     node = request.XenVM("observer")
 
  
